@@ -10,7 +10,7 @@ namespace StandUpTimer
         private DateTime StartTime;
         private readonly Timer UpdateTimer = new Timer();
         private readonly Timer ResetButtonEnableTimer = new Timer();
-        private readonly TimeSpan STAND_UP_TIME = TimeSpan.FromSeconds(5);
+        private readonly TimeSpan STAND_UP_TIME = TimeSpan.FromMinutes(30);
 
         public TimerForm()
         {
